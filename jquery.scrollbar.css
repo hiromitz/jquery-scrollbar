@@ -1,0 +1,52 @@
+
+.jsb-viewport {
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.jsb-content {
+    position: absolute;
+    left: 0; top: 0;
+}
+
+.jsb-scrollbar {
+    position: absolute;
+    right: 0;
+    width: 10px;
+}
+
+.jsb-scrollbar-x {
+	left: 0; bottom: 0;
+}
+
+.jsb-track {
+    background-color: #ccc;
+    height: 100%;
+    position: relative;
+    padding: 0 1px;
+}
+.jsb-track-x {
+	height: 10px;
+}
+
+.jsb-thumb {
+    z-index: 100;
+    width: 8px;
+    background-color: #666;
+    background-color: rgba(0, 0, 0, .4);
+    cursor: pointer;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+.jsb-thumb-x {
+	height: 10px;
+}
+
+.jsb-disable {
+    display: none;
+}
